@@ -12,8 +12,8 @@ Today we're building a lovely form for customer enquiries. Forms are not the eas
 - How can we do gradients?
 - Not everything you will be asked to do you will have seen before, so sharpen those Google Fu skills!
 
-## Challenge 1
+## Extension 1
 Add animations and styling for valid/invalid inputs
 
-## Challenge 2
+## Extension 2
 Once the form is submitted successfully, take the user to a similarly styled "Thank you" page
