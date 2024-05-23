@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "open sans";
+}
+.container {
+  height: 100vh;
+  background-image: linear-gradient(
+    to top right,
+    rgb(57, 198, 237),
+    rgb(242, 111, 242)
+  );
+  align-content: center;
+}
+main {
+  display: grid;
+  grid-template-columns: minmax(250px, 350px);
+  max-width: fit-content;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+}
+@keyframes colourchange {
+  from {
+    color: white;
+  }
+  to {
+    color: black;
+  }
+}
+main {
+  animation: colourchange 3s;
+}
