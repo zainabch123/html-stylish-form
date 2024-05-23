@@ -20,11 +20,11 @@ main {
   background-color: white;
   margin: 0 auto;
   text-align: center;
-  padding: 40px;
+  padding: 30px;
   border-radius: 10px;
 }
 h1 {
-  margin: 10px;
+  margin-bottom: 20px;
 }
 label {
   display: grid;
